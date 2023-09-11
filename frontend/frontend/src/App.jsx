@@ -1,5 +1,4 @@
 import Create from "../pages/Create";
-import Delete from "../pages/Delete";
 import Edit from "../pages/Edit";
 import Home from "../pages/Home";
 import Show from "../pages/Show";
@@ -14,7 +13,6 @@ function App() {
         <Route path="book/create" element={<Create />} />
         <Route path="book/:id" element={<Show />} />
         <Route path="book/edit/:id" element={<Edit />} />
-        <Route path="book/deleteBook/:id" element={<Delete />} />
       </Routes>
     </>
   );
